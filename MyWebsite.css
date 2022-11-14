@@ -158,8 +158,10 @@ body {
 
 .sidebar {
 	width: 300px;
+	height: 150px;
 	float: right;
 	padding: 20px;
+   
 }
 
 .sidebar img {
@@ -170,6 +172,7 @@ body {
 }
 
 .sidebar h3 {
+	padding-bottom: 10px;
 	font-weight: bold;
 	color: #666;
 }
@@ -177,6 +180,48 @@ body {
 .sidebar p {
 	font :12px/18px arial;
 }
+
+/* Profile penulis */
+
+.sidebarPenulis {
+	width: 300px;
+	float: right;
+	padding: 20px;
+
+}
+
+.sidebarPenulis h3 {
+	padding-bottom: : -30px;
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebarPenulis p {
+	font :12px/18px arial;
+	padding-top: 5px;
+}
+
+/* Contact penulis */
+
+.sidebarContact {
+	width: 300px;
+	float: right;
+	padding: 20px;
+	
+	
+}
+
+.sidebarContact h3 {
+	padding-top: -30px;
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebarContact p {
+	font :12px/18px arial;
+	padding-top: 5px;
+}
+
 
 
 /* Footer */
